@@ -1,6 +1,6 @@
 public class MathOperations {
 	public static void main( String[] args ) {
-		int a, b, c, d, e, f, g;
+		int a, b, c, d, e, f, g, h, i, j, k;
 		double x, y, z;
 		String one, two, both;
 		
@@ -26,6 +26,15 @@ public class MathOperations {
 		z = b / 2;
 		System.out.println( "b/2 is " + z );
 		System.out.println();
+		
+		h = b * a;
+		System.out.println( "b * a is "  + h );
+		i = a - b;
+		System.out.println( "a - b is " + i);
+		j = 10 / a;
+		System.out.println( "10 / a is " + j);
+		k = b + 5;
+		System.out.println( "b + 5 is " + k);
 		
 		one = "dog";
 		two = "house";
