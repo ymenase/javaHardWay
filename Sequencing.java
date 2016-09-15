@@ -18,3 +18,4 @@ public class Sequencing {
 		System.out.println( "Total cost:\t" + total );
 	}
 }
+//won't compile if 0 is removed because price isn't defined
