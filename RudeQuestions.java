@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class RudeQuestions {
 	public static void main( String[] args ) {
 		String name;
+		String color;
 		int age;
 		double weight, income;
 		
@@ -24,8 +25,13 @@ public class RudeQuestions {
 		
 		System.out.print( "Hopefully that is " + income + " per hour" );
 		System.out.println( " and not per  year!" );
+		System.out.print( "What is your favorite color, " + name + "? " );
+		color = keyboard.next();
+		
 		System.out.print( "Well, thanks for answering my rude questions, " );
 		System.out.println( name + "." );
+		
+
 		
 	}
 }
