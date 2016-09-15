@@ -17,3 +17,5 @@ public class Sequencing {
 		System.out.println( "Total cost:\t" + total );
 	}
 }
+
+//i am not surprised it runs without = 0 bc all variables have been defined
