@@ -29,3 +29,10 @@ public class RudeQuestions {
 		
 	}
 }
+/* Yes the program does not blow up up if I type an integer where it is expecting a double because a double
+can be converted to an integer
+
+The program does not blow up if I enter an integer where it is expecting a string
+
+Program blows up at name if i enter only numbers. Program blows up if i input a non-integer for age, because it requires an integer. Also blows up if i input letters for income
+and weight because it was expecting numbers.*/
