@@ -15,7 +15,7 @@ public class BooleanExpressions {
 		b = (x <= y);
 		c = (x == y);
 		d = (x != y);
-		e = (x >= y);
+		e = (x > y);
 		f = (x >= y);
 		
 		System.out.println( x + " is LESS THAN " + y + ": " + a );
@@ -34,5 +34,3 @@ public class BooleanExpressions {
 		System.out.println( !(x >= y) + " " + (x < y) );
 	}
 }
-		
-		
