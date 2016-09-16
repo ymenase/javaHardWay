@@ -21,7 +21,7 @@ public class VariableChangeShortcuts {
 		System.out.println( "i: " + i + " \tj: " + j + "\tk: " + k + "\n" );
 		
 		i = j = k = 5;
-		System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k + "\n" );
+		System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
 		i += 1;
 		j -= 2;
 		k *= 3;
@@ -30,14 +30,18 @@ public class VariableChangeShortcuts {
 		i = j = 5;
 		System.out.println( "i: " + i + "\tj: " + j );
 		i =+ 1; // Oops!
-		j =-2;
+		j =- 2;
 		System.out.println( "i: " + i + "\tj: " + j + "\n" );
 		
 		i = j = 5;
-		System.out.println( "iL: " + i + "\tj: " + j );
+		System.out.println( "i: " + i + "\tj: " + j );
 		i++;
 		j--;
 		System.out.println( "i: " + i + "\tj: " + j);
+		
+		i = 5;
+		i -= 5;
+		System.out.println( "i: " + i );
 	}
 }
 			
