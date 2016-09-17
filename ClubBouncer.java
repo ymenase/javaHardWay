@@ -8,8 +8,10 @@ public class ClubBouncer {
 		if ( onGuestList || age >= 21 || (gender.equals("F") && allure >=8) ) {
 		System.out.println("You are allowed to enter the club.");
 		}
+		System.out.println("Testing");
 		else {
 			System.out.println( "You are not allowed to enter the club." );
 		}
 	}
 }
+//adding a println between lines 10 and 11 causes the prog to not compile because anot
