@@ -14,18 +14,18 @@ public class CollegeAdmission {
 		
 		if ( math >= 790 )
 			out.print( "CERTAIN " );
-		if ( math >= 710 )
-			out.print( "SAFE " );
-		if (math >= 580 )
-			out.print( "PROBABLE " );
-		if (math >= 500 )
-			out.print( "UNCERTAIN " );
-		if (math >= 390 )
+		else if (math >= 390 )
 			out.print( "UNLIKELY " );
+		else if ( math >= 710 )
+			out.print( "SAFE " );
+		else if (math >= 580 )
+			out.print( "PROBABLE " );
+		else if (math >= 500 )
+			out.print( "UNCERTAIN " );
 		else // below 390
 			out.print( "DENIED " );
 			
 			out.println();
 	}
 }
-//removing all but the last else causes you to be able to potentially receive multiple outcomes simultaneously 
+		
