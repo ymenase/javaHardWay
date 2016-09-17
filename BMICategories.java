@@ -18,7 +18,7 @@ public class BMICategories {
 		else if ( bmi < 18.5 ) {
 			System.out.println( "underweight" );
 		}
-		else if ( bmi < 25.0 ) {
+		if ( bmi < 25.0 ) {
 			System.out.println( "normal weight" );
 		}
 		else if ( bmi < 30.0 ) {
@@ -35,3 +35,4 @@ public class BMICategories {
 		}
 	}
 }
+// yes, you can then qualify for more than one category
