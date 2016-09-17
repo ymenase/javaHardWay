@@ -30,4 +30,4 @@ public class ComparingNumbers {
 			System.out.println( "Hey." );
 	}
 }	
-//"Hey." is part of the statement body. It runs no matter what.
+//"Hey." is not part of the statement body because only the first line of code gets run without brackets.
