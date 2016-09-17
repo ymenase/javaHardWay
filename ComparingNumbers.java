@@ -27,5 +27,7 @@ public class ComparingNumbers {
 		}
 		if ( first != second ) 
 			System.out.println( first + " is NOT EQUAL TO " + second);
+			System.out.println( "Hey." );
 	}
 }	
+//"Hey." is part of the statement body. It runs no matter what.
