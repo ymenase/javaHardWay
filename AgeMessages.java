@@ -26,3 +26,5 @@ public class AgeMessages {
 		}
 	}
 }
+// if I enter an age over 35, nothing prints because ints greater than 35 
+// are outside the criteria
