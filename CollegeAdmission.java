@@ -14,13 +14,13 @@ public class CollegeAdmission {
 		
 		if ( math >= 790 )
 			out.print( "CERTAIN " );
-		else if ( math >= 710 )
+		if ( math >= 710 )
 			out.print( "SAFE " );
-		else if (math >= 580 )
+		if (math >= 580 )
 			out.print( "PROBABLE " );
-		else if (math >= 500 )
+		if (math >= 500 )
 			out.print( "UNCERTAIN " );
-		else if (math >= 390 )
+		if (math >= 390 )
 			out.print( "UNLIKELY " );
 		else // below 390
 			out.print( "DENIED " );
@@ -28,4 +28,4 @@ public class CollegeAdmission {
 			out.println();
 	}
 }
-		
+//removing all but the last else causes you to be able to potentially receive multiple outcomes simultaneously 
