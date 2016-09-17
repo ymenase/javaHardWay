@@ -3,7 +3,18 @@ import java.util.Scanner;
 public class BMICategories {
 	public static void main( String[] args ) {
 		Scanner keyboard = new Scanner(System.in);
-		double bmi;
+		double bmi, weight;
+		int inches;
+		
+		System.out.println( "Your height in inches: " );
+		inches = keyboard.nextInt();
+		
+		System.out.println( "Your weight in pounds: " );
+		weight = keyboard.nextDouble();	
+		
+		bmi = weight / ( inches*inches) * 703 ;
+		System.out.println( "Your BMI is " + bmi ); 
+		
 		
 		System.out.print( "Enter your BMI: " );
 		bmi = keyboard.nextDouble();
@@ -35,4 +46,3 @@ public class BMICategories {
 		}
 	}
 }
-// yes, you can then qualify for more than one category
