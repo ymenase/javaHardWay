@@ -28,7 +28,7 @@ public class GenderTitles {
 				title = "Ms.";
 			}
 		}
-			else {
+			if ( gender.equals("M") ) {
 				title = "Mr.";
 			}
 		}
