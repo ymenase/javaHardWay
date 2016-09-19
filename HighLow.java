@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class HighLow {
-	public static void main( String[] args ) {
+	public static void main( String[] args ) {  
 		Scanner keyboard = new Scanner(System.in);
 		int secret, guess;
 		
@@ -12,16 +12,15 @@ public class HighLow {
 		System.out.print( "> " );
 		guess = keyboard.nextInt();
 		
+		{	
 		while ( secret != guess ) {
 			if ( guess < secret ) {
 				System.out.print( "Sorry, your guess is too low." );
-				System.out.print( " Try again.\n> " );
-				guess = keyboard.nextInt();
 			}
 			if ( guess > secret ) {
-				System.out.print( "Sorry, your guess is too high." );
-				System.out.print( " Try again.\n> " );
-				guess = keyboard.nextInt();
+				System.out.print( "Sorry, your guess is too high." );}
+			System.out.print( " Try again.\n> " );
+			guess = keyboard.nextInt();
 			}
 		}
 		
