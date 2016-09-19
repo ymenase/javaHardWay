@@ -7,7 +7,7 @@ public class CoinFlip {
 		int streak = 0;
 		boolean gotHeads;
 		
-		do {
+		while {
 			gotHeads = Math.random() < 0.5;
 			
 			if ( gotHeads )
