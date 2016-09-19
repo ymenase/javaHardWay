@@ -20,13 +20,13 @@ public class CoinFlip {
 			if ( gotHeads ) {
 				streak++;
 				System.out.println("\tThat's " + streak + " in a row....");
-				System.out.print("\tWould you like to fli again (y/n)? ");
+				System.out.print("\tWould you like to flip again (y/n)? ");
 				again = keyboard.next();
 			}
 			else {
 				System.out.println("\tYou lose everything!");
 				System.out.println("\tShould've quit while you were aHEAD....");
-				streak = 0
+				streak = 0;
 				again = "n";
 			}
 		} while ( again.equals("y") );
