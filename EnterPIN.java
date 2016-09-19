@@ -4,15 +4,23 @@ public class EnterPIN {
 	public static void main( String[] args ) {
 		Scanner keyboard = new Scanner(System.in);
 		int pin, entry;
+		String entry2 = password;
 		
+		password = dogs;
 		pin = 12345;
 		
-		System.out.println("WECOME TO THE BANK OF JAVA.");
-		System.out.print("ENTER YOUR PIN: ");
-		entry = keyboard.nextInt();
+		System.out.println("WELCOME TO THE BANK OF JAVA.");
+		System.out.print("ENTER YOUR PASSWORD: ");
+		entry2 = keyboard.next();
+		
+		while ( ! typedPassword.equals("dogs")) {
+			System.out.println("\nINCORRECT PASSWORD. TRY AGAIN.");
+			System.out.print("ENTER YOUR PASSWORD: ");
+			entry2 = keyboard.next();
+		}
 		
 		while ( entry != pin ) {
-			System.out.println("\nINCORRECTPIN. TRY AGAIN.");
+			System.out.println("\nINCORRECT PIN. TRY AGAIN.");
 			System.out.print("ENTER YOUR PIN: ");
 			entry = keyboard.nextInt();
 		}
