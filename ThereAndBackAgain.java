@@ -3,7 +3,7 @@ public class ThereAndBackAgain {
 		System.out.println( "Here." );
 		erebor();
 		System.out.println( "Back first time." );
-		erebor();
+//		erebor();
 		System.out.println( "Back around second time." );
 	}
 	
@@ -11,4 +11,4 @@ public class ThereAndBackAgain {
 		System.out.println( "There." );
 	}
 }
-//when i remove the parentheses, it says that line 4 is not a statement. i put them back
+//I think when removing the call in line 6, there will only print once total
