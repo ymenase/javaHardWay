@@ -23,3 +23,11 @@ public class PigDiceComputer {
 			System.out.println( "Computer ends the round with " + total + " points." );
 		}
 	}
+	
+	// roll      total
+	//            0 (4)
+	// 5 (7)      5(14)
+	//  1 (7)     0(14)
+
+	
+	
