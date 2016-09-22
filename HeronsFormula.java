@@ -27,3 +27,4 @@ public class HeronsFormula {
 		return A;
 	}
 }
+//drill 1: the version that does not use a function is longer
