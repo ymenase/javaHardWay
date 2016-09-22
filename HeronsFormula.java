@@ -31,3 +31,4 @@ public class HeronsFormula {
 //drill 1: the version that does not use a function is longer
 //drill 2: it would have been harder to change without the function 
 //because there would be more places to change it and higher room for error
+//drill 3: you would have to change the text in multiple places without the function
