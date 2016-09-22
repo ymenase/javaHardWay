@@ -47,7 +47,7 @@ import java.util.Scanner;
 		
 	}
 	
-	public static double computeTraingleArea( int base, int height ) {
+	public static double computeTriangleArea( int base, int height ) {
 		double A;
 		A = 0.5 * base * height;
 		return A;
