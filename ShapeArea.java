@@ -14,7 +14,8 @@ import java.util.Scanner;
 				System.out.println("1) Triangle");
 				System.out.println("2) Circle");
 				System.out.println("3) Rectangle");
-				System.out.println("4) Quit");
+				System.out.println("4) Square");
+				System.out.println("5) Quit");
 				System.out.print("> ");
 				choice = keyboard.nextInt();
 
@@ -35,15 +36,22 @@ import java.util.Scanner;
 			else if ( choice == 3 ) {
 				System.out.print("\nLength: ");
 				int q = keyboard.nextInt();
-				System.out.print("Width: :");
+				System.out.print("Width: ");
 				int w = keyboard.nextInt();
 				System.out.println("The area is " + computeRectangleArea(q, w) );
 			}
-			else if ( choice != 4 ) {
+			else if ( choice == 4 ) {
+				System.out.print("\nLength: ");
+				int q = keyboard.nextInt();
+				System.out.print("Width: ");
+				int w = keyboard.nextInt();
+				System.out.println("The area is " + computeSquareArea(q, w) );
+			}
+			else if ( choice != 5 ) {
 				System.out.println("ERROR.");
 			}
 		
-		} while ( choice != 4 );
+		} while ( choice != 5 );
 		
 	}
 	
@@ -60,6 +68,10 @@ import java.util.Scanner;
 	}
 	
 	public static int computeRectangleArea( int length, int width ) {
+		return (length * width);
+	}
+	
+	public static int computeSquareArea( int length, int width ) {
 		return (length * width);
 	}
 }
