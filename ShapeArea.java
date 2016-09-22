@@ -41,11 +41,9 @@ import java.util.Scanner;
 				System.out.println("The area is " + computeRectangleArea(q, w) );
 			}
 			else if ( choice == 4 ) {
-				System.out.print("\nLength: ");
-				int q = keyboard.nextInt();
-				System.out.print("Width: ");
-				int w = keyboard.nextInt();
-				System.out.println("The area is " + computeSquareArea(q, w) );
+				System.out.print("\nSide: ");
+				int s = keyboard.nextInt();
+				System.out.println("The area is " + computeSquareArea(s) );
 			}
 			else if ( choice != 5 ) {
 				System.out.println("ERROR.");
@@ -71,7 +69,9 @@ import java.util.Scanner;
 		return (length * width);
 	}
 	
-	public static int computeSquareArea( int length, int width ) {
-		return (length * width);
+	public static int computeSquareArea( int side ) {
+		return (side * side);
 	}
 }
+
+//third way to solve would be to have option 4 call the same function as 3
